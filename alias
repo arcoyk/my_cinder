@@ -1,0 +1,6 @@
+alias edi='v solve.cpp'
+alias run='g++ -std=c++14 solve.cpp && ./a.out'
+alias tmp='cat tmp.cpp > solve.cpp'
+alias stash='cat solve.cpp > stash.cpp && tmp'
+alias back='cat stash.cpp > solve.cpp'
+alias cpy='cat solve.cpp | pbcopy'
